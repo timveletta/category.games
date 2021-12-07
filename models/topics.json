@@ -1,4 +1,11 @@
 [
-    {"topic":"Geography", "categories": ["Capital Cities", "US States"]},
-    {"topic":"Sports", "categories": ["Olympic Sports"]}
+    {"topic":"Geography", "categories": ["Capital Cities", "US States", "Current World Leaders", "European Countries"]},
+    {"topic":"Sports", "categories": ["Olympic Sports", "AFL Teams", "Soccer Teams"]},
+    {"topic":"Food and Drink", "categories": ["Fruits", "Vegetables", "Fast Food Restaurants", "Soft Drink Brands"]},
+    {"topic":"Animals", "categories": ["Dog Breeds", "Insects", "Reptiles"]},
+    {"topic":"Music", "categories": ["Musical Instruments", "Christmas Songs"]},
+    {"topic":"TV Shows", "categories": ["Reality TV Shows"]},
+    {"topic":"Movies", "categories": ["Superhero Movies", "Movie Villains", "James Bond Movies"]},
+    {"topic":"Gaming", "categories": ["Board Games", "Nintendo Characters", "League of Legends Champions"]},
+    {"topic":"Miscellaneous", "categories": ["Phobias", "Car Brands", "Items of Clothing"]}
 ]
