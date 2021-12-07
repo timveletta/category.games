@@ -41,9 +41,15 @@ const Play: NextPage = () => {
     topic: "",
     category: "",
   });
+  const [topicsUsed, setTopicsUsed] = useState<string[]>([]);
 
   const getTopicCategory = (): TopicCategory => {
-    const selectedTopic = topics[getRandomNumber(topics.length)];
+    let selectedTopic = topics[getRandomNumber(topics.length)];
+    // dont reuse topics in a game
+    while (topicsUsed.includes(selectedTopic.topic)) {
+      selectedTopic = topics[getRandomNumber(topics.length)];
+    }
+    setTopicsUsed((prev) => prev.concat([selectedTopic.topic]));
     return {
       topic: selectedTopic.topic,
       category:

@@ -6,6 +6,6 @@
     {"topic":"Music", "categories": ["Musical Instruments", "Christmas Songs"]},
     {"topic":"TV Shows", "categories": ["Reality TV Shows"]},
     {"topic":"Movies", "categories": ["Superhero Movies", "Movie Villains", "James Bond Movies"]},
-    {"topic":"Gaming", "categories": ["Board Games", "Nintendo Characters", "League of Legends Champions"]},
+    {"topic":"Gaming", "categories": ["Board Games", "Nintendo Characters"]},
     {"topic":"Miscellaneous", "categories": ["Phobias", "Car Brands", "Items of Clothing"]}
 ]
